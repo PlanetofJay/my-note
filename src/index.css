@@ -27,12 +27,38 @@ code {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
+.note.new {
+  background: rgba(82, 216, 243, 0.657);
+}
+
+textarea {
+  border: none;
+  resize: none;
+  background: rgba(82, 216, 243, 0.657);
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.save {
+  background-color: rgb(227, 232, 235);
+  border: 2px solid rgba(0, 0, 0, 0.521);
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.save:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
 .note {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  background: rgba(255, 234, 0, 0.25);
+  background: rgba(255, 234, 0, 0.496);
   box-shadow: 0 4px 30px rgba(244, 234, 57, 0.1);
   padding: 1rem;
   min-height: 170px;

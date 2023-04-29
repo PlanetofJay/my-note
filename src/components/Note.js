@@ -11,4 +11,5 @@ const Note = ({ id, text, date }) => {
     </div>
   );
 };
+
 export default Note;
