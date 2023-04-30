@@ -1,7 +1,7 @@
 # Project - Note Application
 
-<img width="300" src='image/image.png'>
-<img width="300" src="image/image2.png">
+<img width="300" src='images/image.png'>
+<img width="300" src="images/image2.png">
 
 # Getting Started with Create React App
 
