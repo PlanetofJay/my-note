@@ -1,10 +1,10 @@
 import React from 'react';
-import { GrSearchAdvanced } from 'react-icons/gr';
+import { HiSearch } from 'react-icons/hi';
 
 const SearchNote = () => {
   return (
     <div className='search'>
-      <GrSearchAdvanced className='search-icons' size='1.3em' />
+      <HiSearch className='search-icons' size='1.3em' />
       <input type='text' placeholder='type to search...' />
     </div>
   );

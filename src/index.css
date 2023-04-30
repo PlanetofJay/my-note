@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(227, 232, 235);
+  background-color: rgb(242, 245, 247);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -34,7 +34,7 @@ code {
 textarea {
   border: none;
   resize: none;
-  background: rgba(82, 216, 243, 0.657);
+  background: rgb(95, 222, 248);
 }
 
 textarea:focus {
@@ -77,4 +77,22 @@ textarea:focus {
 
 .delete-icon {
   cursor: pointer;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.093);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5rem;
+}
+
+.search input {
+  border: none;
+  background: rgba(223, 222, 222, 0.093);
+}
+
+.search input:focus {
+  outline: none;
 }
