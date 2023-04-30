@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiSearch } from 'react-icons/hi';
 
-const SearchNote = ({ handleSearchNote }) => {
+const Search = ({ handleSearchNote }) => {
   return (
     <div className='search'>
       <HiSearch className='search-icons' size='1.3em' />
@@ -16,4 +16,4 @@ const SearchNote = ({ handleSearchNote }) => {
   );
 };
 
-export default SearchNote;
+export default Search;
