@@ -1,3 +1,8 @@
+# Project - Note Application
+
+<img width="300" src='image/image.png'>
+<img width="300" src="image/image2.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
