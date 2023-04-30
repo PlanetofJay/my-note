@@ -28,7 +28,7 @@ code {
 }
 
 .note.new {
-  background: rgba(82, 216, 243, 0.657);
+  background: rgba(80, 216, 244, 0.87);
 }
 
 textarea {
@@ -65,6 +65,8 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /* Keep any spacing that was added to the text */
+  white-space: pre-wrap;
 }
 
 .note-footer {
